@@ -63,7 +63,7 @@ A web application that allows users to convert their spoken words into text usin
 
 ## Example UI
 
-![Voice-to-Text UI](https://via.placeholder.com/800x400?text=Voice-to-Text+UI)
+![Voice-to-Text UI](D:\Python Projects\voice into text\screencapture-127-0-0-1-5500-index-html-2024-12-10-10_19_34.png)
 
 ## Technologies Used
 
