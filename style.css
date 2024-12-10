@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+outline: none;
+font-family: 'Roboto', sans-serif;
+
+}
+/* Now you can use the font in your styles */
+body {
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c8d8d;
+    color: #333;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    background-image:
+    radial-gradient(circle at center, rgba(255, 165, 0, 0.2), rgba(255, 165, 0, 0.05) 50%, transparent 50%),
+    url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.container{
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.container .header{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container .settings p{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #a5a5a5;
+    font-size: 16px;
+}
+.container .settings select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+   border:#161313;
+    font-size: 16px;
+}
+.container .separator{
+    margin: 20px 0px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #260879;
+    color: #fff;
+    gap: 2px;
+    height: 42px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #333 ;
+}
+.container .record .bx-spin{
+    animation: spin 1s linear infinite;
+    display: none;
+}
+.container .record.recording .bx-spin{
+    display: block;
+}
+.container .record.recording i{
+  display: none;
+}
+.container .result{
+   width: 100%;
+    padding: 20px;
+    border:1px solid #333;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 15vh;
+    overflow-y: scroll;
+
+
+
+}
+.container .result p{
+   
+    font-size: 16px;
+    line-height: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons .btn{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
