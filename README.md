@@ -61,9 +61,6 @@ A web application that allows users to convert their spoken words into text usin
 - **Browsers**: Works on modern browsers like Chrome and Edge.
 - **Devices**: Requires a microphone for input.
 
-## Example UI
-
-![Voice-to-Text UI](D:\Python Projects\voice into text\screencapture-127-0-0-1-5500-index-html-2024-12-10-10_19_34.png)
 
 ## Technologies Used
 
@@ -82,10 +79,3 @@ A web application that allows users to convert their spoken words into text usin
 - Enhance error messages with suggested fixes.
 - Improve UI with animations and visual feedback.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you need further customizations!
